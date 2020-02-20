@@ -13,7 +13,7 @@ function findMinAndRemoveSorted (arr) {
 
 function merge (arr) {
   let sorted = []
-  
+  while
 }
 
 function mergeSort (arr) {
