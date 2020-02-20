@@ -11,9 +11,9 @@ function findMinAndRemoveSorted (arr) {
   return min
 }
 
-function merge (arr) {
+function merge (arr1, arr2) {
   let sorted = []
-  while
+  while (arr1.length != )
 }
 
 function mergeSort (arr) {
