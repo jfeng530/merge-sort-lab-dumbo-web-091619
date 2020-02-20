@@ -6,8 +6,10 @@ function merge (arr1, arr2) {
   let sorted = []
   while (arr1.length !== 0 && arr2.length !== 0) {
     if (arr1[0] < arr2[0]) {
-      sorted.push(arr1[0])
-    } else 
+      sorted.push(findMinAndRemoveSorted(arr1))
+    } else {
+      sorted.push(findMinAndRemoveSorted(arr2))
+    }
   }
   return sorted.concat(arr1).concat(arr2)
 }
