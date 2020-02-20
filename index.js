@@ -7,6 +7,8 @@ function findMinAndRemoveSorted (arr) {
       index = i
     }
   }
+  arr.splice(index, 1)
+  return min
 }
 
 function merge (arr) {
